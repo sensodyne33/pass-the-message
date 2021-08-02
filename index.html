@@ -10,11 +10,16 @@
     </head>
     <body>
             <div class="center-box">
-                <h4>A Message You Would Like To Pass</h4>
-                <input type="text" id="empty-textbox">
-                <button class="submit">Submit</button>
-                <p>Last Message Delivered</p>
-                <p id="last-message"></p>
+                <form>
+                    <h2>Enter Your Message</h2>
+                    <input type="text" id="user_input">
+                  </form>
+                  <br>
+                  <input type="submit" onclick="showInput();">
+                  <br>
+                  <label>Previous Message </label>
+                
+                  <p><span id="display"></span></p>
             </div>
         
         <script src="app.js"></script>

@@ -1,0 +1,13 @@
+.center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    min-height: 300px;
+    margin: 20% 25%;
+    background: rgb(240,192,213);
+    background: radial-gradient(circle, rgba(240,192,213,1) 0%, rgba(148,187,233,1) 100%);
+}
+
